@@ -30,6 +30,26 @@ This repository focuses on setting up and running the SLAM and navigation tasks 
 - **SLAM Toolbox**: For scanning the room and generating maps (runs on the laptop).
 - **PS4 Controller Node**: For teleoperating Broverette using the PS4 controller (also controlled from the laptop).
 
+## Prerequisites
+
+Ensure you have ROS 2 Humble installed and sourced in your environment. If SLAM Toolbox or Nav2 are not already installed, follow the steps below:
+### Install SLAM Toolbox
+
+SLAM Toolbox provides mapping and localization functionalities in ROS 2. To install it, use the following command:
+```bash
+sudo apt update
+sudo apt install ros-humble-slam-toolbox
+```
+
+### Install Nav2 
+
+Nav2 allows you to perform path planning, obstacle avoidance, and autonomous navigation. Install it by running:
+```bash
+sudo apt update
+sudo apt install ros-humble-nav2-bringup
+```
+
+
 ## Setup
 
 ### Clone the Repository
