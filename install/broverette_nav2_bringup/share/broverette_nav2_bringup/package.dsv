@@ -1,6 +1,0 @@
-source;share/broverette_nav2_bringup/hook/pythonpath.ps1
-source;share/broverette_nav2_bringup/hook/pythonpath.dsv
-source;share/broverette_nav2_bringup/hook/pythonpath.sh
-source;share/broverette_nav2_bringup/hook/ament_prefix_path.ps1
-source;share/broverette_nav2_bringup/hook/ament_prefix_path.dsv
-source;share/broverette_nav2_bringup/hook/ament_prefix_path.sh

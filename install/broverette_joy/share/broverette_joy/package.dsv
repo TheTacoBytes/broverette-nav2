@@ -1,6 +1,0 @@
-source;share/broverette_joy/hook/pythonpath.ps1
-source;share/broverette_joy/hook/pythonpath.dsv
-source;share/broverette_joy/hook/pythonpath.sh
-source;share/broverette_joy/hook/ament_prefix_path.ps1
-source;share/broverette_joy/hook/ament_prefix_path.dsv
-source;share/broverette_joy/hook/ament_prefix_path.sh
