@@ -1,0 +1,42 @@
+[1.634s] Invoking command in '/home/beto/broverette_nav2_ws/src/broverette_nav2_bringup': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_nav2_bringup build --build-base /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/build install --record /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/install.log --single-version-externally-managed install_data
+[1.851s] running egg_info
+[1.852s] creating ../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info
+[1.852s] writing ../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info/PKG-INFO
+[1.853s] writing dependency_links to ../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info/dependency_links.txt
+[1.853s] writing entry points to ../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info/entry_points.txt
+[1.853s] writing requirements to ../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info/requires.txt
+[1.853s] writing top-level names to ../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info/top_level.txt
+[1.853s] writing manifest file '../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info/SOURCES.txt'
+[1.854s] reading manifest file '../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info/SOURCES.txt'
+[1.855s] writing manifest file '../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info/SOURCES.txt'
+[1.855s] running build
+[1.855s] running build_py
+[1.855s] creating /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/build
+[1.855s] creating /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/build/lib
+[1.855s] creating /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/build/lib/broverette_nav2_bringup
+[1.855s] copying broverette_nav2_bringup/__init__.py -> /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/build/lib/broverette_nav2_bringup
+[1.856s] running install
+[1.856s] running install_lib
+[1.857s] creating /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/python3.10/site-packages/broverette_nav2_bringup
+[1.857s] copying /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/build/lib/broverette_nav2_bringup/__init__.py -> /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/python3.10/site-packages/broverette_nav2_bringup
+[1.857s] byte-compiling /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/python3.10/site-packages/broverette_nav2_bringup/__init__.py to __init__.cpython-310.pyc
+[1.858s] running install_data
+[1.858s] creating /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/ament_index
+[1.858s] creating /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/ament_index/resource_index
+[1.858s] creating /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/ament_index/resource_index/packages
+[1.858s] copying resource/broverette_nav2_bringup -> /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/ament_index/resource_index/packages
+[1.858s] copying package.xml -> /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup
+[1.858s] creating /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/launch
+[1.858s] copying launch/navigation_launch.py -> /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/launch
+[1.858s] copying launch/online_async_launch.py -> /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/launch
+[1.858s] copying launch/localization_launch.py -> /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/launch
+[1.858s] creating /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/config
+[1.858s] copying config/nav2_params.yaml -> /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/config
+[1.858s] creating /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/maps
+[1.858s] copying maps/map.yaml -> /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/maps
+[1.858s] copying maps/map.pgm -> /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/maps
+[1.858s] running install_egg_info
+[1.860s] Copying ../../build/broverette_nav2_bringup/broverette_nav2_bringup.egg-info to /home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/python3.10/site-packages/broverette_nav2_bringup-0.0.0-py3.10.egg-info
+[1.861s] running install_scripts
+[1.884s] writing list of installed files to '/home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/install.log'
+[1.914s] Invoked command in '/home/beto/broverette_nav2_ws/src/broverette_nav2_bringup' returned '0': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_nav2_bringup build --build-base /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/build install --record /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/install.log --single-version-externally-managed install_data

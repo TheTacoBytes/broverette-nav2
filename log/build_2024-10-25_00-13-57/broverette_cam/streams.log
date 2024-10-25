@@ -1,0 +1,37 @@
+[1.626s] Invoking command in '/home/beto/broverette_nav2_ws/src/broverette_cam': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_cam build --build-base /home/beto/broverette_nav2_ws/build/broverette_cam/build install --record /home/beto/broverette_nav2_ws/build/broverette_cam/install.log --single-version-externally-managed install_data
+[1.833s] running egg_info
+[1.833s] creating ../../build/broverette_cam/broverette_cam.egg-info
+[1.834s] writing ../../build/broverette_cam/broverette_cam.egg-info/PKG-INFO
+[1.834s] writing dependency_links to ../../build/broverette_cam/broverette_cam.egg-info/dependency_links.txt
+[1.834s] writing entry points to ../../build/broverette_cam/broverette_cam.egg-info/entry_points.txt
+[1.834s] writing requirements to ../../build/broverette_cam/broverette_cam.egg-info/requires.txt
+[1.834s] writing top-level names to ../../build/broverette_cam/broverette_cam.egg-info/top_level.txt
+[1.834s] writing manifest file '../../build/broverette_cam/broverette_cam.egg-info/SOURCES.txt'
+[1.836s] reading manifest file '../../build/broverette_cam/broverette_cam.egg-info/SOURCES.txt'
+[1.836s] writing manifest file '../../build/broverette_cam/broverette_cam.egg-info/SOURCES.txt'
+[1.836s] running build
+[1.836s] running build_py
+[1.837s] creating /home/beto/broverette_nav2_ws/build/broverette_cam/build
+[1.837s] creating /home/beto/broverette_nav2_ws/build/broverette_cam/build/lib
+[1.837s] creating /home/beto/broverette_nav2_ws/build/broverette_cam/build/lib/broverette_cam
+[1.837s] copying broverette_cam/webcam_sub.py -> /home/beto/broverette_nav2_ws/build/broverette_cam/build/lib/broverette_cam
+[1.837s] copying broverette_cam/__init__.py -> /home/beto/broverette_nav2_ws/build/broverette_cam/build/lib/broverette_cam
+[1.837s] running install
+[1.837s] running install_lib
+[1.838s] creating /home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages/broverette_cam
+[1.838s] copying /home/beto/broverette_nav2_ws/build/broverette_cam/build/lib/broverette_cam/webcam_sub.py -> /home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages/broverette_cam
+[1.838s] copying /home/beto/broverette_nav2_ws/build/broverette_cam/build/lib/broverette_cam/__init__.py -> /home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages/broverette_cam
+[1.839s] byte-compiling /home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages/broverette_cam/webcam_sub.py to webcam_sub.cpython-310.pyc
+[1.840s] byte-compiling /home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages/broverette_cam/__init__.py to __init__.cpython-310.pyc
+[1.840s] running install_data
+[1.840s] creating /home/beto/broverette_nav2_ws/install/broverette_cam/share/ament_index
+[1.840s] creating /home/beto/broverette_nav2_ws/install/broverette_cam/share/ament_index/resource_index
+[1.840s] creating /home/beto/broverette_nav2_ws/install/broverette_cam/share/ament_index/resource_index/packages
+[1.840s] copying resource/broverette_cam -> /home/beto/broverette_nav2_ws/install/broverette_cam/share/ament_index/resource_index/packages
+[1.840s] copying package.xml -> /home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam
+[1.840s] running install_egg_info
+[1.843s] Copying ../../build/broverette_cam/broverette_cam.egg-info to /home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages/broverette_cam-0.0.0-py3.10.egg-info
+[1.843s] running install_scripts
+[1.864s] Installing img_subscriber script to /home/beto/broverette_nav2_ws/install/broverette_cam/lib/broverette_cam
+[1.865s] writing list of installed files to '/home/beto/broverette_nav2_ws/build/broverette_cam/install.log'
+[1.897s] Invoked command in '/home/beto/broverette_nav2_ws/src/broverette_cam' returned '0': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_cam build --build-base /home/beto/broverette_nav2_ws/build/broverette_cam/build install --record /home/beto/broverette_nav2_ws/build/broverette_cam/install.log --single-version-externally-managed install_data

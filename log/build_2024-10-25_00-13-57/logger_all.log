@@ -1,0 +1,334 @@
+[0.095s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.095s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79bf30916650>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79bf30915d20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79bf30915d20>>)
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.231s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/beto/broverette_nav2_ws'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_cam) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_cam) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_cam) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_cam) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_cam) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_cam) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_cam) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_cam) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/broverette_cam' with type 'ros.ament_python' and name 'broverette_cam'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_description) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_description) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_description) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_description) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_description) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_description) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_description) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_description) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_description) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/broverette_description' with type 'ros.ament_python' and name 'broverette_description'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_joy) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_joy) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_joy) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_joy) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_joy) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_joy) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_joy) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_joy) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/broverette_joy' with type 'ros.ament_python' and name 'broverette_joy'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_nav2_bringup) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_nav2_bringup) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_nav2_bringup) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_nav2_bringup) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_nav2_bringup) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_nav2_bringup) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_nav2_bringup) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_nav2_bringup) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/broverette_nav2_bringup' with type 'ros.ament_python' and name 'broverette_nav2_bringup'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_slam) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_slam) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_slam) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_slam) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_slam) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_slam) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_slam) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/broverette_slam) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/broverette_slam' with type 'ros.ament_python' and name 'broverette_slam'
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.287s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/beto/broverette_nav2_ws/install/broverette_slam' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.287s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.287s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/beto/broverette_nav2_ws/install/broverette_joy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.287s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/beto/broverette_nav2_ws/install/broverette_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.287s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/beto/broverette_nav2_ws/install/broverette_cam' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.287s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/beto/broverette_nav2_ws/install
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/beto/ackbot_ws/install
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/beto/brovette/broverette_ws/install
+[0.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/humble
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_cam' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_cam' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.325s] DEBUG:colcon.colcon_core.verb:Building package 'broverette_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beto/broverette_nav2_ws/build/broverette_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beto/broverette_nav2_ws/install/broverette_cam', 'merge_install': False, 'path': '/home/beto/broverette_nav2_ws/src/broverette_cam', 'symlink_install': False, 'test_result_base': None}
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_description' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_description' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'broverette_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'broverette_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beto/broverette_nav2_ws/build/broverette_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beto/broverette_nav2_ws/install/broverette_description', 'merge_install': False, 'path': '/home/beto/broverette_nav2_ws/src/broverette_description', 'symlink_install': False, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_joy' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_joy' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'broverette_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beto/broverette_nav2_ws/build/broverette_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beto/broverette_nav2_ws/install/broverette_joy', 'merge_install': False, 'path': '/home/beto/broverette_nav2_ws/src/broverette_joy', 'symlink_install': False, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'broverette_nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'broverette_nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beto/broverette_nav2_ws/build/broverette_nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup', 'merge_install': False, 'path': '/home/beto/broverette_nav2_ws/src/broverette_nav2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'broverette_slam' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'broverette_slam' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'broverette_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'broverette_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'broverette_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'broverette_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'broverette_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'broverette_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'broverette_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'broverette_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beto/broverette_nav2_ws/build/broverette_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beto/broverette_nav2_ws/install/broverette_slam', 'merge_install': False, 'path': '/home/beto/broverette_nav2_ws/src/broverette_slam', 'symlink_install': False, 'test_result_base': None}
+[0.327s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.328s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.328s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/beto/broverette_nav2_ws/src/broverette_cam' with build type 'ament_python'
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_cam', 'ament_prefix_path')
+[0.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/hook/ament_prefix_path.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/hook/ament_prefix_path.dsv'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/hook/ament_prefix_path.sh'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/beto/broverette_nav2_ws/src/broverette_description' with build type 'ament_python'
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_description', 'ament_prefix_path')
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/hook/ament_prefix_path.ps1'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/hook/ament_prefix_path.dsv'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/hook/ament_prefix_path.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/beto/broverette_nav2_ws/src/broverette_joy' with build type 'ament_python'
+[0.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_joy', 'ament_prefix_path')
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/hook/ament_prefix_path.ps1'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/hook/ament_prefix_path.dsv'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/hook/ament_prefix_path.sh'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/beto/broverette_nav2_ws/src/broverette_nav2_bringup' with build type 'ament_python'
+[0.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_nav2_bringup', 'ament_prefix_path')
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/hook/ament_prefix_path.ps1'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/hook/ament_prefix_path.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/hook/ament_prefix_path.sh'
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/beto/broverette_nav2_ws/src/broverette_slam' with build type 'ament_python'
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_slam', 'ament_prefix_path')
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/hook/ament_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/hook/ament_prefix_path.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/hook/ament_prefix_path.sh'
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.579s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/beto/broverette_nav2_ws/src/broverette_cam'
+[0.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.809s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/beto/broverette_nav2_ws/src/broverette_description'
+[0.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.040s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/beto/broverette_nav2_ws/src/broverette_joy'
+[1.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.394s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/beto/broverette_nav2_ws/src/broverette_nav2_bringup'
+[1.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.618s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/beto/broverette_nav2_ws/src/broverette_slam'
+[1.619s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.619s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beto/broverette_nav2_ws/src/broverette_description': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_description build --build-base /home/beto/broverette_nav2_ws/build/broverette_description/build install --record /home/beto/broverette_nav2_ws/build/broverette_description/install.log --single-version-externally-managed install_data
+[1.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beto/broverette_nav2_ws/src/broverette_slam': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_slam build --build-base /home/beto/broverette_nav2_ws/build/broverette_slam/build install --record /home/beto/broverette_nav2_ws/build/broverette_slam/install.log --single-version-externally-managed install_data
+[1.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beto/broverette_nav2_ws/src/broverette_cam': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_cam build --build-base /home/beto/broverette_nav2_ws/build/broverette_cam/build install --record /home/beto/broverette_nav2_ws/build/broverette_cam/install.log --single-version-externally-managed install_data
+[1.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beto/broverette_nav2_ws/src/broverette_joy': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_joy build --build-base /home/beto/broverette_nav2_ws/build/broverette_joy/build install --record /home/beto/broverette_nav2_ws/build/broverette_joy/install.log --single-version-externally-managed install_data
+[1.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beto/broverette_nav2_ws/src/broverette_nav2_bringup': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_nav2_bringup build --build-base /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/build install --record /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/install.log --single-version-externally-managed install_data
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beto/broverette_nav2_ws/src/broverette_description' returned '0': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_description build --build-base /home/beto/broverette_nav2_ws/build/broverette_description/build install --record /home/beto/broverette_nav2_ws/build/broverette_description/install.log --single-version-externally-managed install_data
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_description' for CMake module files
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_description' for CMake config files
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_description/lib'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_description/bin'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_description/lib/pkgconfig/broverette_description.pc'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_description/lib/python3.10/site-packages'
+[2.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_description', 'pythonpath')
+[2.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/hook/pythonpath.ps1'
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/hook/pythonpath.dsv'
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/hook/pythonpath.sh'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_description/bin'
+[2.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(broverette_description)
+[2.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/package.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/package.dsv'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/package.sh'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/package.bash'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_description/share/broverette_description/package.zsh'
+[2.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beto/broverette_nav2_ws/install/broverette_description/share/colcon-core/packages/broverette_description)
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_joy' for CMake module files
+[2.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beto/broverette_nav2_ws/src/broverette_joy' returned '0': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_joy build --build-base /home/beto/broverette_nav2_ws/build/broverette_joy/build install --record /home/beto/broverette_nav2_ws/build/broverette_joy/install.log --single-version-externally-managed install_data
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_joy' for CMake config files
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_joy/lib'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_joy/bin'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_joy/lib/pkgconfig/broverette_joy.pc'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_joy/lib/python3.10/site-packages'
+[2.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_joy', 'pythonpath')
+[2.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/hook/pythonpath.ps1'
+[2.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/hook/pythonpath.dsv'
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/hook/pythonpath.sh'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_joy/bin'
+[2.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(broverette_joy)
+[2.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/package.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/package.dsv'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/package.sh'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/package.bash'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_joy/share/broverette_joy/package.zsh'
+[2.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beto/broverette_nav2_ws/install/broverette_joy/share/colcon-core/packages/broverette_joy)
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_slam' for CMake module files
+[2.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beto/broverette_nav2_ws/src/broverette_slam' returned '0': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_slam build --build-base /home/beto/broverette_nav2_ws/build/broverette_slam/build install --record /home/beto/broverette_nav2_ws/build/broverette_slam/install.log --single-version-externally-managed install_data
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_slam' for CMake config files
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_slam/lib'
+[2.189s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_slam/bin'
+[2.189s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_slam/lib/pkgconfig/broverette_slam.pc'
+[2.189s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_slam/lib/python3.10/site-packages'
+[2.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_slam', 'pythonpath')
+[2.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/hook/pythonpath.ps1'
+[2.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/hook/pythonpath.dsv'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/hook/pythonpath.sh'
+[2.190s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_slam/bin'
+[2.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(broverette_slam)
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/package.ps1'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/package.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/package.sh'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/package.bash'
+[2.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_slam/share/broverette_slam/package.zsh'
+[2.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beto/broverette_nav2_ws/install/broverette_slam/share/colcon-core/packages/broverette_slam)
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_cam' for CMake module files
+[2.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beto/broverette_nav2_ws/src/broverette_cam' returned '0': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_cam build --build-base /home/beto/broverette_nav2_ws/build/broverette_cam/build install --record /home/beto/broverette_nav2_ws/build/broverette_cam/install.log --single-version-externally-managed install_data
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_cam' for CMake config files
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_cam/lib'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_cam/bin'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_cam/lib/pkgconfig/broverette_cam.pc'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_cam/lib/python3.10/site-packages'
+[2.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_cam', 'pythonpath')
+[2.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/hook/pythonpath.ps1'
+[2.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/hook/pythonpath.dsv'
+[2.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/hook/pythonpath.sh'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_cam/bin'
+[2.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(broverette_cam)
+[2.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/package.ps1'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/package.dsv'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/package.sh'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/package.bash'
+[2.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_cam/share/broverette_cam/package.zsh'
+[2.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beto/broverette_nav2_ws/install/broverette_cam/share/colcon-core/packages/broverette_cam)
+[2.258s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup' for CMake module files
+[2.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beto/broverette_nav2_ws/src/broverette_nav2_bringup' returned '0': PYTHONPATH=/home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/broverette_nav2_bringup build --build-base /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/build install --record /home/beto/broverette_nav2_ws/build/broverette_nav2_bringup/install.log --single-version-externally-managed install_data
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup' for CMake config files
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib'
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/bin'
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/pkgconfig/broverette_nav2_bringup.pc'
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/lib/python3.10/site-packages'
+[2.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('broverette_nav2_bringup', 'pythonpath')
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/hook/pythonpath.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/hook/pythonpath.dsv'
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/hook/pythonpath.sh'
+[2.262s] Level 1:colcon.colcon_core.environment:checking '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/bin'
+[2.262s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(broverette_nav2_bringup)
+[2.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/package.ps1'
+[2.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/package.dsv'
+[2.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/package.sh'
+[2.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/package.bash'
+[2.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/broverette_nav2_bringup/package.zsh'
+[2.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beto/broverette_nav2_ws/install/broverette_nav2_bringup/share/colcon-core/packages/broverette_nav2_bringup)
+[2.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.264s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.264s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.269s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.278s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beto/broverette_nav2_ws/install/local_setup.ps1'
+[2.280s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/beto/broverette_nav2_ws/install/_local_setup_util_ps1.py'
+[2.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beto/broverette_nav2_ws/install/setup.ps1'
+[2.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beto/broverette_nav2_ws/install/local_setup.sh'
+[2.282s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/beto/broverette_nav2_ws/install/_local_setup_util_sh.py'
+[2.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beto/broverette_nav2_ws/install/setup.sh'
+[2.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beto/broverette_nav2_ws/install/local_setup.bash'
+[2.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beto/broverette_nav2_ws/install/setup.bash'
+[2.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beto/broverette_nav2_ws/install/local_setup.zsh'
+[2.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beto/broverette_nav2_ws/install/setup.zsh'

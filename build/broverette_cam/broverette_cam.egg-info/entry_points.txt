@@ -1,0 +1,3 @@
+[console_scripts]
+img_subscriber = webcam_feed.webcam_sub:main
+
