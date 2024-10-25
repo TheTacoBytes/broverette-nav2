@@ -1,3 +1,0 @@
-[console_scripts]
-ps4_joy = ps4_controller.ps4_controller_node:main
-
