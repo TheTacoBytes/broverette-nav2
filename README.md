@@ -1,7 +1,6 @@
 # Broverette Nav2 Project
 
-
-https://github.com/user-attachments/assets/c0d8558d-242a-4060-ba12-9d2655ce0742
+![AckbotAutonomousNavigation_TestingROS2Nav2PathPlannerwithAMCL-ezgif com-optimize](https://github.com/user-attachments/assets/a0f7e0b2-b9ab-4402-a0fb-24f9cc5b6f2a)
 
 
 ## Overview
