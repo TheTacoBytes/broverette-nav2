@@ -1,12 +1,6 @@
 # Broverette Nav2 Project
 
-![AckbotAutonomousNavigation_TestingROS2Nav2PathPlannerwithAMCL-ezgif com-optimize](https://github.com/user-attachments/assets/a0f7e0b2-b9ab-4402-a0fb-24f9cc5b6f2a)
-
-
-
 https://github.com/user-attachments/assets/56d67b5a-3257-45d6-8336-669a07fd4262
-
-
 
 ## Overview
 The Broverette project provides the necessary code and configurations to control and navigate a robot using a Raspberry Pi 4 (Broverette) and a laptop running Ubuntu 22 with ROS 2 Humble. Broverette itself handles the basic sensor and movement operations, such as publishing topics like `cmd_vel`, `odom`, and `scan`. However, all higher-level functions, such as mapping (SLAM), localization (AMCL), and navigation (Nav2), are handled on the laptop, which subscribes to these topics.
