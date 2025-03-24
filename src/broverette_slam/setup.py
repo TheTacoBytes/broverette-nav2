@@ -11,6 +11,8 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', ['launch/slam_launch.py']),
+        ('share/broverette_slam/config', ['config/params.yaml']),
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,
