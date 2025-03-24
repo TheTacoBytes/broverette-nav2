@@ -48,9 +48,9 @@ class PS4ControlNode(Node):
             self.get_logger().info(f'RGB Light set to index: {self.rgb_light_index}')
 
         # Read joystick and trigger values
-        forward = (1 - msg.axes[5]) / 2  # R2 is axis 5, normalize to 0-1 with 1 being fully pressed
-        reverse = (1 - msg.axes[2]) / 2  # L2 is axis 4, normalize to 0-1 with 1 being fully pressed
-        steering = msg.axes[0]  # Left joystick horizontal is axis 0
+        forward = (1 - msg.axes[2]) / 2  # R2 is axis 5, normalize to 0-1 with 1 being fully pressed
+        reverse = (1 - msg.axes[5]) / 2  # L2 is axis 4, normalize to 0-1 with 1 being fully pressed
+        steering = -msg.axes[0]  # Left joystick horizontal is axis 0
 
         # Ensure only one of forward or reverse is active at a time
         if forward > 0.1 and reverse > 0.1:  # Adjust threshold if needed
