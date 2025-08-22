@@ -9,12 +9,16 @@ def generate_launch_description():
     # Path to the slam_toolbox launch file
     slam_toolbox_launch_dir = os.path.join(
         get_package_share_directory('slam_toolbox'), 'launch', 'online_async_launch.py')
-
+    
+    params_file = os.path.join(
+        get_package_share_directory('broverette_slam'), 'config', 'params.yaml'
+    )
     # Include the SLAM Toolbox's online async launch file
     slam_toolbox_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(slam_toolbox_launch_dir),
         launch_arguments={
             'use_sim_time': 'false',  # Adjust based on your needs
+            'slam_params_file': params_file,
         }.items(),
     )
 
